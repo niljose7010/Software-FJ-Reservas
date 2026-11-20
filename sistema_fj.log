@@ -1,0 +1,66 @@
+2026-11-20 14:59:16 | INFO | === INICIO DE SIMULACIÓN DEL SISTEMA SOFTWARE FJ ===
+2026-11-20 14:59:16 | INFO | Cliente creado exitosamente: Laura Martínez (ID: CLI-001)
+2026-11-20 14:59:16 | INFO | Cliente creado exitosamente: Carlos Gómez (ID: CLI-002)
+2026-11-20 14:59:16 | ERROR | Operación 3 (Prueba de validación cliente) | Causa: DatoInvalidoError: El documento debe contener únicamente entre 6 y 12 dígitos.
+2026-11-20 14:59:16 | INFO | Servicio ReservaSala creado: Sala Innovación Norte (Capacidad: 15)
+2026-11-20 14:59:16 | INFO | Servicio AlquilerEquipo creado: Workstation Dell Precision (Stock: 5)
+2026-11-20 14:59:16 | INFO | Servicio AsesoriaEspecializada creado: Arquitectura Cloud AWS (Cloud Computing)
+2026-11-20 14:59:16 | ERROR | Operación 5 (Prueba encadenamiento de excepciones) | Causa: DatoInvalidoError: La tarifa base debe ser un valor numérico. -> Encadenada de: ValueError: could not convert string to float: 'tarifa_invalida'
+2026-11-20 14:59:16 | INFO | Reserva RES-001 creada en estado PENDIENTE para Laura Martínez.
+2026-11-20 14:59:16 | INFO | Reserva RES-001 CONFIRMADA. Total a pagar: $369,495.00
+2026-11-20 14:59:16 | INFO | Reserva RES-001 PROCESADA exitosamente.
+2026-11-20 14:59:16 | ERROR | Operación 7 (Capacidad excedida) | Causa: ServicioNoDisponibleError: Los 25 asistentes superan la capacidad máxima (15) de la sala.
+2026-11-20 14:59:16 | INFO | Reserva RES-003 creada en estado PENDIENTE para Carlos Gómez.
+2026-11-20 14:59:16 | INFO | Reserva RES-003 CONFIRMADA. Total a pagar: $678,300.00
+2026-11-20 14:59:16 | ERROR | Operación 9 (Stock insuficiente) | Causa: ServicioNoDisponibleError: Cantidad solicitada (4) inválida o superior al stock disponible (2).
+2026-11-20 14:59:16 | INFO | Reserva RES-005 creada en estado PENDIENTE para Laura Martínez.
+2026-11-20 14:59:16 | INFO | Reserva RES-005 CONFIRMADA. Total a pagar: $585,000.00
+2026-11-20 14:59:16 | INFO | Reserva RES-005 CANCELADA por solicitud.
+2026-11-20 14:59:16 | ERROR | Operación 11 (Transición de estado inválida) | Causa: ReservaInvalidaError: Operación no permitida: la reserva RES-005 debe estar CONFIRMADA para procesarse (actual: CANCELADA).
+2026-11-20 14:59:16 | INFO | Reserva RES-006 creada en estado PENDIENTE para Carlos Gómez.
+2026-11-20 14:59:16 | ERROR | Operación 12 (Cálculo financiero inconsistente) | Causa: ReservaInvalidaError: Fallo al confirmar la reserva RES-006. -> Encadenada de: CalculoInconsistenteError: El descuento debe estar entre 0 (0%) y 0.99 (99%).
+2026-11-20 14:59:16 | INFO | === FIN DE SIMULACIÓN EXITOSA ===
+2026-11-20 15:04:41 | INFO | === INICIO DE SIMULACIÓN DEL SISTEMA SOFTWARE FJ ===
+2026-11-20 15:04:41 | INFO | Cliente creado exitosamente: Laura Martínez (ID: CLI-001)
+2026-11-20 15:04:41 | INFO | Cliente creado exitosamente: Carlos Gómez (ID: CLI-002)
+2026-11-20 15:04:41 | ERROR | Operación 3 (Prueba de validación cliente) | Causa: DatoInvalidoError: El documento debe contener únicamente entre 6 y 12 dígitos.
+2026-11-20 15:04:41 | INFO | Servicio ReservaSala creado: Sala Innovación Norte (Capacidad: 15)
+2026-11-20 15:04:41 | INFO | Servicio AlquilerEquipo creado: Workstation Dell Precision (Stock: 5)
+2026-11-20 15:04:41 | INFO | Servicio AsesoriaEspecializada creado: Arquitectura Cloud AWS (Cloud Computing)
+2026-11-20 15:04:41 | ERROR | Operación 5 (Prueba encadenamiento de excepciones) | Causa: DatoInvalidoError: La tarifa base debe ser un valor numérico. -> Encadenada de: ValueError: could not convert string to float: 'tarifa_invalida'
+2026-11-20 15:04:41 | INFO | Reserva RES-001 creada en estado PENDIENTE para Laura Martínez.
+2026-11-20 15:04:41 | INFO | Reserva RES-001 CONFIRMADA. Total a pagar: $369,495.00
+2026-11-20 15:04:41 | INFO | Reserva RES-001 PROCESADA exitosamente.
+2026-11-20 15:04:41 | ERROR | Operación 7 (Capacidad excedida) | Causa: ServicioNoDisponibleError: Los 25 asistentes superan la capacidad máxima (15) de la sala.
+2026-11-20 15:04:41 | INFO | Reserva RES-003 creada en estado PENDIENTE para Carlos Gómez.
+2026-11-20 15:04:41 | INFO | Reserva RES-003 CONFIRMADA. Total a pagar: $678,300.00
+2026-11-20 15:04:41 | ERROR | Operación 9 (Stock insuficiente) | Causa: ServicioNoDisponibleError: Cantidad solicitada (4) inválida o superior al stock disponible (2).
+2026-11-20 15:04:41 | INFO | Reserva RES-005 creada en estado PENDIENTE para Laura Martínez.
+2026-11-20 15:04:41 | INFO | Reserva RES-005 CONFIRMADA. Total a pagar: $585,000.00
+2026-11-20 15:04:41 | INFO | Reserva RES-005 CANCELADA por solicitud.
+2026-11-20 15:04:41 | ERROR | Operación 11 (Transición de estado inválida) | Causa: ReservaInvalidaError: Operación no permitida: la reserva RES-005 debe estar CONFIRMADA para procesarse (actual: CANCELADA).
+2026-11-20 15:04:41 | INFO | Reserva RES-006 creada en estado PENDIENTE para Carlos Gómez.
+2026-11-20 15:04:41 | ERROR | Operación 12 (Cálculo financiero inconsistente) | Causa: ReservaInvalidaError: Fallo al confirmar la reserva RES-006. -> Encadenada de: CalculoInconsistenteError: El descuento debe estar entre 0 (0%) y 0.99 (99%).
+2026-11-20 15:04:41 | INFO | === FIN DE SIMULACIÓN EXITOSA ===
+2026-11-20 15:07:20 | INFO | === INICIO DE SIMULACIÓN DEL SISTEMA SOFTWARE FJ ===
+2026-11-20 15:07:20 | INFO | Cliente creado exitosamente: Laura Martínez (ID: CLI-001)
+2026-11-20 15:07:20 | INFO | Cliente creado exitosamente: Carlos Gómez (ID: CLI-002)
+2026-11-20 15:07:20 | ERROR | Operación 3 (Prueba de validación cliente) | Causa: DatoInvalidoError: El documento debe contener únicamente entre 6 y 12 dígitos.
+2026-11-20 15:07:20 | INFO | Servicio ReservaSala creado: Sala Innovación Norte (Capacidad: 15)
+2026-11-20 15:07:20 | INFO | Servicio AlquilerEquipo creado: Workstation Dell Precision (Stock: 5)
+2026-11-20 15:07:20 | INFO | Servicio AsesoriaEspecializada creado: Arquitectura Cloud AWS (Cloud Computing)
+2026-11-20 15:07:20 | ERROR | Operación 5 (Prueba encadenamiento de excepciones) | Causa: DatoInvalidoError: La tarifa base debe ser un valor numérico. -> Encadenada de: ValueError: could not convert string to float: 'tarifa_invalida'
+2026-11-20 15:07:20 | INFO | Reserva RES-001 creada en estado PENDIENTE para Laura Martínez.
+2026-11-20 15:07:20 | INFO | Reserva RES-001 CONFIRMADA. Total a pagar: $369,495.00
+2026-11-20 15:07:20 | INFO | Reserva RES-001 PROCESADA exitosamente.
+2026-11-20 15:07:20 | ERROR | Operación 7 (Capacidad excedida) | Causa: ServicioNoDisponibleError: Los 25 asistentes superan la capacidad máxima (15) de la sala.
+2026-11-20 15:07:20 | INFO | Reserva RES-003 creada en estado PENDIENTE para Carlos Gómez.
+2026-11-20 15:07:20 | INFO | Reserva RES-003 CONFIRMADA. Total a pagar: $678,300.00
+2026-11-20 15:07:20 | ERROR | Operación 9 (Stock insuficiente) | Causa: ServicioNoDisponibleError: Cantidad solicitada (4) inválida o superior al stock disponible (2).
+2026-11-20 15:07:20 | INFO | Reserva RES-005 creada en estado PENDIENTE para Laura Martínez.
+2026-11-20 15:07:20 | INFO | Reserva RES-005 CONFIRMADA. Total a pagar: $585,000.00
+2026-11-20 15:07:20 | INFO | Reserva RES-005 CANCELADA por solicitud.
+2026-11-20 15:07:20 | ERROR | Operación 11 (Transición de estado inválida) | Causa: ReservaInvalidaError: Operación no permitida: la reserva RES-005 debe estar CONFIRMADA para procesarse (actual: CANCELADA).
+2026-11-20 15:07:20 | INFO | Reserva RES-006 creada en estado PENDIENTE para Carlos Gómez.
+2026-11-20 15:07:20 | ERROR | Operación 12 (Cálculo financiero inconsistente) | Causa: ReservaInvalidaError: Fallo al confirmar la reserva RES-006. -> Encadenada de: CalculoInconsistenteError: El descuento debe estar entre 0 (0%) y 0.99 (99%).
+2026-11-20 15:07:20 | INFO | === FIN DE SIMULACIÓN EXITOSA ===
